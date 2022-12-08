@@ -1,0 +1,4 @@
+dbs/
+__pycache__
+virtual/
+Scrapyd/scrapy_app/dbs/default.db

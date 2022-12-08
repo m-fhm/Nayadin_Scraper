@@ -1,0 +1,115 @@
+2021-05-27 21:16:23 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: scrapy_app)
+2021-05-27 21:16:23 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Windows-10-10.0.19041-SP0
+2021-05-27 21:16:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-05-27 21:16:23 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scrapy_app',
+ 'LOG_FILE': 'logs\\default\\toscrape-css\\dbbb05c8bf0611eb915fd0bf9cdecfbc.log',
+ 'NEWSPIDER_MODULE': 'scrapy_app.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_app.spiders']}
+2021-05-27 21:16:23 [scrapy.extensions.telnet] INFO: Telnet Password: a0503444c08ef78a
+2021-05-27 21:16:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-05-27 21:16:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-05-27 21:16:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-05-27 21:16:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy_app.pipelines.ScrapyAppPipeline']
+2021-05-27 21:16:24 [scrapy.core.engine] INFO: Spider opened
+2021-05-27 21:16:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-05-27 21:16:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-05-27 21:16:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.opensv.org/robots.txt> (referer: None)
+2021-05-27 21:16:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.meetup.com/robots.txt> (referer: None)
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 1 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 2 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 3 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 4 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 5 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 6 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 7 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 11 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 12 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 13 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 14 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 15 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 16 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 17 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 18 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 19 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 20 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 21 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 22 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 23 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 24 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 25 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 26 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 27 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 28 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 29 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 30 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 31 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 32 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 33 without any user agent to enforce it on.
+2021-05-27 21:16:25 [protego] DEBUG: Rule at line 34 without any user agent to enforce it on.
+2021-05-27 21:16:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tie.org/robots.txt> (referer: None)
+2021-05-27 21:16:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.meetup.com/> (referer: None)
+2021-05-27 21:16:27 [asyncio] DEBUG: Using proactor: IocpProactor
+2021-05-27 21:16:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.meetup.com/>
+{'hashed-data': '8588d7d0cec2140751d146ef542931881aa23533f2b0259deb26082ad5552312', 'site_url': 'https://www.meetup.com/', 'last_visit_Date': '27 May, 2021'}
+2021-05-27 21:16:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tie.org/> (referer: None)
+2021-05-27 21:16:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tie.org/>
+{'hashed-data': '2b5f23a91122cbfd6fe07c0663572ee9696649d1556977385f3e1d7eda3d790e', 'site_url': 'https://tie.org/', 'last_visit_Date': '27 May, 2021'}
+2021-05-27 21:16:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.opensv.org/> (referer: None)
+2021-05-27 21:16:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.opensv.org/>
+{'hashed-data': '40aee6702a93bb82bfa3afc545321120f4573b0cb7630c64f1a6ef67078d1bf0', 'site_url': 'https://www.opensv.org/', 'last_visit_Date': '27 May, 2021'}
+2021-05-27 21:16:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eventbrite.com/robots.txt> (referer: None)
+2021-05-27 21:16:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.eventbrite.com/> (referer: None)
+2021-05-27 21:16:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.eventbrite.com/>
+{'hashed-data': 'b2cd13da8077226e2aa82db5caaa52731561a3878eb90677132040dc3b11a1aa', 'site_url': 'https://www.eventbrite.com/', 'last_visit_Date': '27 May, 2021'}
+2021-05-27 21:16:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-05-27 21:16:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2278,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 199300,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'elapsed_time_seconds': 7.340752,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 5, 27, 16, 16, 31, 445513),
+ 'httpcompression/response_bytes': 793080,
+ 'httpcompression/response_count': 6,
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 47,
+ 'log_count/INFO': 10,
+ 'response_received_count': 8,
+ 'robotstxt/request_count': 4,
+ 'robotstxt/response_count': 4,
+ 'robotstxt/response_status_count/200': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2021, 5, 27, 16, 16, 24, 104761)}
+2021-05-27 21:16:31 [scrapy.core.engine] INFO: Spider closed (finished)
